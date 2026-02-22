@@ -1,10 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=Peak&fontSize=58&fontColor=e6edf3&fontAlignY=55&stroke=161b22&strokeWidth=3&animation=fadeIn" width="100%"/>
-</div>
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=console.log(%22Hello%2C+World!%22);+%2F%2F+still+works+%F0%9F%98%84)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=2800&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=true&width=600&height=50&lines=%24+whoami;%3E+peak;%24+cat+passion.txt;%3E+code+%7C+build+%7C+learn)](https://git.io/typing-svg)
 
 </div>
 
