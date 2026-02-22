@@ -1,8 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=Shivam%20Nagar&fontSize=60&fontColor=58a6ff&fontAlignY=45&desc=∙%20CS%20Student%20∙%20Builder%20∙%20Open%20Source%20∙&descAlignY=65&descSize=16&descColor=8b949e&stroke=58a6ff&strokeWidth=2" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=160&section=header&text=Peak&fontSize=58&fontColor=e6edf3&fontAlignY=55&stroke=161b22&strokeWidth=3&animation=fadeIn" width="100%"/>
 </div>
-
-<br/>
 
 <div align="center">
 
@@ -35,8 +33,8 @@
 $ cat about.txt
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   Name   : Shivam Nagar                                     │
-│   Role   : CS Student + Developer                           │
+│   Name   : Peak                                             │
+│   Role   : CS Student                                       │
 │   Stack  : Python · Java · JS · React · AWS                 │
 │   Status : Building · Learning                              │
 │                                                             │
@@ -64,14 +62,7 @@ $ cat about.txt
 ## `git log --stat`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=io-peak&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff&cache_seconds=86400" height="160" alt="Stats"/>
   <img src="https://streak-stats.demolab.com?user=io-peak&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&cache_seconds=86400" height="160" alt="Streak"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=io-peak&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&cache_seconds=86400" height="140" alt="Top Languages"/>
 </div>
 
 ---
@@ -89,5 +80,5 @@ $ cat about.txt
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer&stroke=58a6ff&strokeWidth=1" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer&stroke=161b22&strokeWidth=2" width="100%"/>
 </div>
