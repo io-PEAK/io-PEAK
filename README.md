@@ -72,9 +72,3 @@ $ cat about.txt
     <img alt="contribution snake" src="https://raw.githubusercontent.com/io-PEAK/io-PEAK/output/github-snake-dark.svg" width="100%"/>
   </picture>
 </div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer&stroke=161b22&strokeWidth=2" width="100%"/>
-</div>
