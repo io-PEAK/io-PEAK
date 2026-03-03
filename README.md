@@ -29,7 +29,7 @@
 $ cat about.txt
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   Name   : Peak                                             │
+│   Name   : Shivam Nagar                                     │
 │   Role   : CS Student                                       │
 │   Stack  : Python · Java · JS · React · AWS                 │
 │   Status : Building · Learning                              │
