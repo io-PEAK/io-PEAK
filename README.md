@@ -7,19 +7,32 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/io-PEAK">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
-  </a>
-  <a href="https://www.linkedin.com/in/shivam-nagar-067880240/">
-    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=161b22"/>
-  </a>
-  <a href="https://twitter.com/youkwhat">
-    <img src="https://img.shields.io/badge/Twitter-0d1117?style=for-the-badge&logo=x&logoColor=58a6ff&labelColor=161b22"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=io-peak&color=58a6ff&style=for-the-badge&label=VIEWS&labelColor=161b22"/>
-</div>
 
-<br/>
+<table style="border:1px solid #161b22; border-radius:8px; padding:10px; background-color:#0d1117;">
+<tr>
+<td align="center">
+<a href="https://github.com/io-PEAK">
+<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22"/>
+</a>
+</td>
+<td align="center">
+  <a href="https://www.linkedin.com/in/shivam-nagar-067880240/" style="text-decoration:none;">
+    <img width="28" src="https://img.icons8.com/?size=120&id=xuvGCOXi8Wyg&format=png&color=000000" style="display:block;"/>
+    <img src="https://img.shields.io/badge/Linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22" style="display:block;"/>
+  </a>
+</td>
+<td align="center">
+<a href="https://twitter.com/youkwhat">
+<img src="https://img.shields.io/badge/Twitter-0d1117?style=for-the-badge&logo=x&logoColor=white&labelColor=161b22"/>
+</a>
+</td>
+<td align="center">
+<img src="https://komarev.com/ghpvc/?username=io-peak&style=for-the-badge&label=Views" width="100"/>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
