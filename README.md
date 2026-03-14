@@ -66,15 +66,17 @@ $ cat about.txt
 
 </div>
 
----
-
 ## `git log --stat`
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=io-peak&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&cache_seconds=86400" height="160" alt="Streak"/>
-</br>
-  <img src="https://github-readme-stats.vercel.app/api?username=io-PEAK&hide=prs&show_icons=true&title_color=3380C4&icon_color=3380C4&text_color=edf2f7&bg_color=151515" /> 	
 </div>
+
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=io-PEAK&hide_rank=true&show_icons=true&discussions_started,prs_merged&title_color=3380C4&icon_color=3380C4&text_color=edf2f7&bg_color=151515&border_color=3380C4" />
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=io-PEAK&layout=compact&langs_count=8&title_color=3380C4&bg_color=151515&text_color=edf2f7&border_color=3380C4" />
+
+<br clear="both"/>
+
 ---
 
 ## `watch contrib --snake`
