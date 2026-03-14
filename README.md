@@ -72,8 +72,9 @@ $ cat about.txt
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=io-peak&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&cache_seconds=86400" height="160" alt="Streak"/>
+</br>
+  <img src="https://github-readme-stats.vercel.app/api?username=io-PEAK&hide=prs&show_icons=true&title_color=3380C4&icon_color=3380C4&text_color=edf2f7&bg_color=151515" /> 	
 </div>
-
 ---
 
 ## `watch contrib --snake`
