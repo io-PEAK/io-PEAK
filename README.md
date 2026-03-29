@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=2800&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=true&width=600&height=50&lines=%24+whoami;%3E+Shivam+Nagar;%24+cat+passion.txt;%3E+code+%7C+build+%7C+learn)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=2800&pause=1000&color=A7C080&center=true&vCenter=true&repeat=true&width=600&height=50&lines=%24+whoami;%3E+Shivam+Nagar;%24+cat+passion.txt;%3E+code+%7C+build+%7C+learn)](https://git.io/typing-svg)
 
 </div>
 
@@ -69,11 +69,11 @@ $ cat about.txt
 ## `git log --stat`
 
 <div align="center">
-&nbsp;<img src="https://streak-stats.demolab.com?user=io-peak&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&cache_seconds=86400" height="160" alt="Streak"/>
+&nbsp;<img src="https://streak-stats.demolab.com?user=io-PEAK&theme=everforest-dark&hide_border=true&border_radius=20&background=FFF9FD03)](https://git.io/streak-stats"/>
 </div>
 
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=io-PEAK&hide_rank=true&show_icons=true&discussions_started,prs_merged&title_color=3380C4&icon_color=3380C4&text_color=edf2f7&bg_color=151515&border_color=3380C4" />
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=io-PEAK&layout=compact&langs_count=8&title_color=3380C4&bg_color=151515&text_color=edf2f7&border_color=3380C4" />
+<img align="left" src="https://ghstats.dev/api/card?username=io-PEAK&theme=forest&hide_border=true&show_ring=false&hide=week%2Cstreak%2Cprs%2Cissues%2Cgrade&custom_title=Github+Stats&border_radius=20.5)](https://github.com/rowkav09/GitHub-profile-stats" />
+<img align="right" src="https://readme-stats-github.pages.dev/api/top-langs?username=io-PEAK" />
 
 <br clear="both"/>
 
