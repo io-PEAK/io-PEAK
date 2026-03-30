@@ -64,7 +64,7 @@ def lang_color(name: str, idx: int) -> str:
     return GITHUB_LANG_COLORS.get(name, FALLBACK_COLORS[idx % len(FALLBACK_COLORS)])
 
 
-def fetch_languages(username: str, token: str) -> dict[str, int]:
+def fetch_languages(username: str, token: str) -> dict:
     query = """
     query($login: String!, $after: String) {
       user(login: $login) {
@@ -83,7 +83,7 @@ def fetch_languages(username: str, token: str) -> dict[str, int]:
     }
     """
     headers = {"Authorization": f"bearer {token}", "Content-Type": "application/json"}
-    totals: dict[str, int] = {}
+    totals = {}
     after = None
 
     while True:
@@ -101,7 +101,8 @@ def fetch_languages(username: str, token: str) -> dict[str, int]:
         repos = data["data"]["user"]["repositories"]
         for repo in repos["nodes"]:
             for edge in repo["languages"]["edges"]:
-                totals[edge["node"]["name"]] = totals.get(edge["node"]["name"], 0) + edge["size"]
+                name = edge["node"]["name"]
+                totals[name] = totals.get(name, 0) + edge["size"]
 
         if not repos["pageInfo"]["hasNextPage"]:
             break
@@ -110,7 +111,7 @@ def fetch_languages(username: str, token: str) -> dict[str, int]:
     return totals
 
 
-def build_svg(lang_totals: dict[str, int], top_n: int = 8) -> str:
+def build_svg(lang_totals: dict, top_n: int = 8) -> str:
     sorted_langs = sorted(lang_totals.items(), key=lambda x: x[1], reverse=True)[:top_n]
     total = sum(b for _, b in sorted_langs)
     if not total:
@@ -121,61 +122,47 @@ def build_svg(lang_totals: dict[str, int], top_n: int = 8) -> str:
         for i, (n, b) in enumerate(sorted_langs)
     ]
 
-    # ── Your color palette ───────────────────────────────────────────────
-    TITLE_COLOR  = "#4ec9b0"   # teal
-    TEXT_COLOR   = "#b5cea8"   # sage green
-    PCT_COLOR    = "#b5cea8"   # same sage for %
-    TRACK_COLOR  = "#1a3a1a"   # slightly lighter than bg so track is visible
-    BG           = "#0D1F0D"   # flat dark green
-    FONT         = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+    TITLE_COLOR = "#4ec9b0"
+    TEXT_COLOR  = "#b5cea8"
+    PCT_COLOR   = "#b5cea8"
+    TRACK_COLOR = "#1a3a1a"
+    BG          = "#0D1F0D"
+    FONT        = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 
-    # ── Layout ────────────────────────────────────────────────────────────
-    W        = 400
-    PAD_X    = 26
-    TITLE_H  = 58
-    ROW_H    = 46
-    CORNER   = 20
-    DOT_R    = 6
-    BAR_H    = 7
-    BAR_R    = 4
-    NAME_W   = 90
-    PCT_W    = 48                              # fixed slot for % label
-    BAR_X    = PAD_X + DOT_R * 2 + 10 + NAME_W
-    BAR_W    = W - BAR_X - PAD_X - PCT_W      # bar always ends before % label
-    PCT_X    = W - PAD_X                       # % right-aligned
+    PAD_X   = 28
+    TITLE_H = 52
+    ROW_H   = 32
+    CORNER  = 18
+    DOT_R   = 6
+    BAR_H   = 7
+    BAR_R   = 3
+    NAME_W  = 100
+    GAP     = 12
+    BAR_X   = PAD_X + DOT_R * 2 + GAP + NAME_W
+    BAR_W   = 160
+    PCT_GAP = 14
+    PCT_X   = BAR_X + BAR_W + PCT_GAP
+    W       = PCT_X + 52
 
-    H = TITLE_H + len(langs) * ROW_H + 18
+    H = TITLE_H + len(langs) * ROW_H + 20
 
     rows = []
     for i, lang in enumerate(langs):
-        cy   = TITLE_H + i * ROW_H + ROW_H // 2
-        c    = lang["color"]
-        fw   = max(6, round(BAR_W * lang["pct"] / 100, 1))
-        ty   = cy + 5
+        cy = TITLE_H + i * ROW_H + ROW_H // 2
+        c  = lang["color"]
+        fw = max(4, round(BAR_W * lang["pct"] / 100, 1))
+        ty = cy + 5
 
         rows.append(f"""
-  <circle cx="{PAD_X + DOT_R}" cy="{cy}" r="{DOT_R}" fill="{c}"/>
-  <text x="{PAD_X + DOT_R*2 + 10}" y="{ty}"
-        font-family="{FONT}" font-size="13" font-weight="600"
-        fill="{TEXT_COLOR}">{lang["name"]}</text>
-  <rect x="{BAR_X}" y="{cy - BAR_H//2}" width="{BAR_W}" height="{BAR_H}"
-        rx="{BAR_R}" fill="{TRACK_COLOR}"/>
-  <rect x="{BAR_X}" y="{cy - BAR_H//2}" width="{fw}" height="{BAR_H}"
-        rx="{BAR_R}" fill="{c}" opacity="0.75"/>
-  <text x="{PCT_X}" y="{ty}"
-        font-family="{FONT}" font-size="12" font-weight="600"
-        fill="{PCT_COLOR}" text-anchor="end">{lang["pct"]}%</text>""")
+  <circle cx="{PAD_X+DOT_R}" cy="{cy}" r="{DOT_R}" fill="{c}"/>
+  <text x="{PAD_X+DOT_R*2+GAP}" y="{ty}" font-family="{FONT}" font-size="14" font-weight="600" fill="{TEXT_COLOR}">{lang["name"]}</text>
+  <rect x="{BAR_X}" y="{cy-BAR_H//2}" width="{BAR_W}" height="{BAR_H}" rx="{BAR_R}" fill="{TRACK_COLOR}"/>
+  <rect x="{BAR_X}" y="{cy-BAR_H//2}" width="{fw}" height="{BAR_H}" rx="{BAR_R}" fill="{c}" opacity="0.8"/>
+  <text x="{PCT_X}" y="{ty}" font-family="{FONT}" font-size="13" font-weight="600" fill="{PCT_COLOR}" text-anchor="start">{lang["pct"]}%</text>""")
 
-    return f"""<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}"
-     xmlns="http://www.w3.org/2000/svg" role="img"
-     aria-label="Most Used Languages">
-
+    return f"""<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most Used Languages">
   <rect width="{W}" height="{H}" rx="{CORNER}" fill="{BG}"/>
-
-  <text x="{PAD_X}" y="36"
-        font-family="{FONT}" font-size="18" font-weight="700"
-        fill="{TITLE_COLOR}" letter-spacing="0.2">Most Used Languages</text>
-
+  <text x="{PAD_X}" y="34" font-family="{FONT}" font-size="18" font-weight="700" fill="{TITLE_COLOR}" letter-spacing="0.2">Most Used Languages</text>
   {"".join(rows)}
 </svg>"""
 
@@ -186,7 +173,7 @@ def main():
     top_n    = int(os.environ.get("TOP_N", "8"))
     out      = os.environ.get("OUTPUT_PATH", "assets/langs-card.svg")
 
-    print(f"Fetching language stats for @{username}…")
+    print(f"Fetching language stats for @{username}...")
     totals = fetch_languages(username, token)
     print(f"Found {len(totals)} languages.")
 
@@ -194,7 +181,7 @@ def main():
     os.makedirs(os.path.dirname(out) if os.path.dirname(out) else ".", exist_ok=True)
     with open(out, "w") as f:
         f.write(svg)
-    print(f"Written → {out}")
+    print(f"Written -> {out}")
 
 
 if __name__ == "__main__":
