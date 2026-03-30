@@ -1,0 +1,39 @@
+name: "langs-card"
+description: "Generate Most Used Languages SVG card"
+
+inputs:
+  github_token:
+    description: "GitHub token"
+    required: true
+  github_username:
+    description: "GitHub username"
+    required: true
+  output_path:
+    description: "Output SVG path"
+    required: false
+    default: "assets/langs-card.svg"
+  top_n:
+    description: "Number of languages to show"
+    required: false
+    default: "8"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      shell: bash
+      run: pip install requests
+
+    - name: Generate SVG
+      shell: bash
+      env:
+        GH_TOKEN:    ${{ inputs.github_token }}
+        GH_USERNAME: ${{ inputs.github_username }}
+        OUTPUT_PATH: ${{ inputs.output_path }}
+        TOP_N:       ${{ inputs.top_n }}
+      run: python "${{ github.action_path }}/generate_langs.py"
