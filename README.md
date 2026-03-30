@@ -72,11 +72,23 @@ $ cat about.txt
 &nbsp;<img src="https://streak-stats.demolab.com?user=io-PEAK&theme=everforest-dark&hide_border=true&border_radius=20&background=FFF9FD03)](https://git.io/streak-stats"/>
 </div>
 
-<img align="left" width="48%" src="https://ghstats.dev/api/card?username=io-peak&theme=forest&hide_border=true&show_ring=false&hide=week%2Cstreak%2Cprs%2Cissues%2Cgrade&custom_title=Github+Stats&border_radius=20.5" />
+<br/>
 
-<img align="right" width="45%" src="https://readme-stats-github.pages.dev/api/top-langs?username=io-peak&layout=compact" />
-
-<br clear="both"/>
+<p>
+  <img
+    src="https://ghstats.dev/api/card?username=io-PEAK&theme=forest&show_ring=false&custom_title=Github+Stats&border_radius=21"
+    height="320"
+    align="left"
+    alt="GitHub Stats"
+  />
+  <img
+    src="./assets/langs-card.svg"
+    height="320"
+    align="right"
+    alt="Most Used Languages"
+  />
+</p>
+<br clear="both" />
 
 ---
 
