@@ -5,8 +5,8 @@
   <circle cx="34" cy="68" r="6" fill="#f1e05a"/>
   <text x="52" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">JavaScript</text>
   <rect x="152" y="65" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="65" width="117.9" height="7" rx="3" fill="#f1e05a" opacity="0.8"/>
-  <text x="326" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">73.7%</text>
+  <rect x="152" y="65" width="118.1" height="7" rx="3" fill="#f1e05a" opacity="0.8"/>
+  <text x="326" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">73.8%</text>
   <circle cx="34" cy="100" r="6" fill="#5686a5"/>
   <text x="52" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">GLSL</text>
   <rect x="152" y="97" width="160" height="7" rx="3" fill="#1a3a1a"/>
@@ -25,8 +25,8 @@
   <circle cx="34" cy="196" r="6" fill="#563d7c"/>
   <text x="52" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">CSS</text>
   <rect x="152" y="193" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="193" width="6.9" height="7" rx="3" fill="#563d7c" opacity="0.8"/>
-  <text x="326" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">4.3%</text>
+  <rect x="152" y="193" width="6.7" height="7" rx="3" fill="#563d7c" opacity="0.8"/>
+  <text x="326" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">4.2%</text>
   <circle cx="34" cy="228" r="6" fill="#f34b7d"/>
   <text x="52" y="233" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">C++</text>
   <rect x="152" y="225" width="160" height="7" rx="3" fill="#1a3a1a"/>
