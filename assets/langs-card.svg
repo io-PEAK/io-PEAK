@@ -5,8 +5,8 @@
   <circle cx="34" cy="68" r="6" fill="#f1e05a"/>
   <text x="52" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">JavaScript</text>
   <rect x="152" y="65" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="65" width="104.8" height="7" rx="3" fill="#f1e05a" opacity="0.8"/>
-  <text x="326" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">65.5%</text>
+  <rect x="152" y="65" width="105.0" height="7" rx="3" fill="#f1e05a" opacity="0.8"/>
+  <text x="326" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">65.6%</text>
   <circle cx="34" cy="100" r="6" fill="#563d7c"/>
   <text x="52" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">CSS</text>
   <rect x="152" y="97" width="160" height="7" rx="3" fill="#1a3a1a"/>
@@ -25,8 +25,8 @@
   <circle cx="34" cy="196" r="6" fill="#b07219"/>
   <text x="52" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">Java</text>
   <rect x="152" y="193" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="193" width="8.0" height="7" rx="3" fill="#b07219" opacity="0.8"/>
-  <text x="326" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">5.0%</text>
+  <rect x="152" y="193" width="7.8" height="7" rx="3" fill="#b07219" opacity="0.8"/>
+  <text x="326" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">4.9%</text>
   <circle cx="34" cy="228" r="6" fill="#3572A5"/>
   <text x="52" y="233" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">Python</text>
   <rect x="152" y="225" width="160" height="7" rx="3" fill="#1a3a1a"/>
