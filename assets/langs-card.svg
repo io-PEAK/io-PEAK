@@ -5,28 +5,28 @@
   <circle cx="34" cy="68" r="6" fill="#f1e05a"/>
   <text x="52" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">JavaScript</text>
   <rect x="152" y="65" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="65" width="98.7" height="7" rx="3" fill="#f1e05a" opacity="0.8"/>
-  <text x="326" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">61.7%</text>
-  <circle cx="34" cy="100" r="6" fill="#e34c26"/>
-  <text x="52" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">HTML</text>
+  <rect x="152" y="65" width="96.0" height="7" rx="3" fill="#f1e05a" opacity="0.8"/>
+  <text x="326" y="73" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">60.0%</text>
+  <circle cx="34" cy="100" r="6" fill="#DA5B0B"/>
+  <text x="52" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">Jupyter Notebook</text>
   <rect x="152" y="97" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="97" width="13.1" height="7" rx="3" fill="#e34c26" opacity="0.8"/>
-  <text x="326" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">8.2%</text>
+  <rect x="152" y="97" width="12.3" height="7" rx="3" fill="#DA5B0B" opacity="0.8"/>
+  <text x="326" y="105" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">7.7%</text>
   <circle cx="34" cy="132" r="6" fill="#3572A5"/>
   <text x="52" y="137" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">Python</text>
   <rect x="152" y="129" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="129" width="10.9" height="7" rx="3" fill="#3572A5" opacity="0.8"/>
-  <text x="326" y="137" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">6.8%</text>
+  <rect x="152" y="129" width="12.2" height="7" rx="3" fill="#3572A5" opacity="0.8"/>
+  <text x="326" y="137" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">7.6%</text>
   <circle cx="34" cy="164" r="6" fill="#563d7c"/>
   <text x="52" y="169" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">CSS</text>
   <rect x="152" y="161" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="161" width="10.7" height="7" rx="3" fill="#563d7c" opacity="0.8"/>
-  <text x="326" y="169" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">6.7%</text>
-  <circle cx="34" cy="196" r="6" fill="#DA5B0B"/>
-  <text x="52" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">Jupyter Notebook</text>
+  <rect x="152" y="161" width="11.8" height="7" rx="3" fill="#563d7c" opacity="0.8"/>
+  <text x="326" y="169" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">7.4%</text>
+  <circle cx="34" cy="196" r="6" fill="#e34c26"/>
+  <text x="52" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">HTML</text>
   <rect x="152" y="193" width="160" height="7" rx="3" fill="#1a3a1a"/>
-  <rect x="152" y="193" width="10.6" height="7" rx="3" fill="#DA5B0B" opacity="0.8"/>
-  <text x="326" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">6.6%</text>
+  <rect x="152" y="193" width="11.7" height="7" rx="3" fill="#e34c26" opacity="0.8"/>
+  <text x="326" y="201" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#b5cea8" text-anchor="start">7.3%</text>
   <circle cx="34" cy="228" r="6" fill="#5686a5"/>
   <text x="52" y="233" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#b5cea8">GLSL</text>
   <rect x="152" y="225" width="160" height="7" rx="3" fill="#1a3a1a"/>
